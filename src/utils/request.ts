@@ -7,8 +7,8 @@ import { clearToken, isAuth, setToken } from './auth'
 
 // 创建axios实例
 const http = axios.create({
-  // baseURL: 'http://toutiao.itheima.net/v1_0',
-  baseURL:'/api'
+  baseURL: 'http://toutiao.itheima.net/v1_0',
+  // baseURL:'/api'
 
 })
 
