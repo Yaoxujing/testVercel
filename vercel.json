@@ -1,8 +1,9 @@
-{
-    "routes": [
-        {
-            "source": "/api/(.*)",
-            "destination": "/api/proxy"
-        }
-    ]
-}
+
+    {
+        "redirects":
+         [
+            { "source": "/api/(.*)",
+             "destination": "http://toutiao.itheima.net/v1_0" 
+             }
+            ]
+      }
