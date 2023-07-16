@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+p,
+h2,
+h3 {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+// 定制组件库主体 -> 覆盖组件库默认的全局css变量；
+:root:root {
+  --adm-color-primary: #fc6627;
+  --adm-font-family: 'PingFangSC-Regular';
+  --font-size: 16px;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}

@@ -1,0 +1,21 @@
+@import '@scss/hairline.scss';
+
+:root {
+  --main-color: red;
+  --geek-border: 6px solid orange;
+}
+
+.box {
+  margin: 20px;
+  color: var(--main-color);
+  border: var(--geek-border);
+}
+
+.bd {
+  border-bottom: 1px solid red;
+}
+
+.bt {
+  position: relative;
+  @include hairline(top, green);
+}
