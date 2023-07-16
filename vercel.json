@@ -1,7 +1,7 @@
 
   {
   "headers": [{
-    "source": "/api(.*)",
+    "source": "/api/(.*)",
     "headers" : [
       {
         "key" : "Access-Control-Allow-Origin",
@@ -19,7 +19,7 @@
   }],
   "rewrites": [
     {
-      "source": "/api(.*)", 
+      "source": "/api/(.*)", 
       "destination": "/api/query-all-users"
     }
   ]
