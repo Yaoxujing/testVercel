@@ -1,9 +1,23 @@
 
     {
-        "redirects":
-         [
-            { "source": "/api/(.*)",
-             "destination": "http://toutiao.itheima.net/v1_0" 
-             }
+        
+        "headers": [
+            {
+            "source": "/v1_0/(.*)",
+            "headers": [
+                {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "*"
+                  },
+                  {
+                    "key": "Access-Control-Allow-Methods",
+                    "value": "GET, POST, OPTIONS"
+                  },
+                  {
+                    "key": "Access-Control-Allow-Headers",
+                    "value": "X-Requested-With, Content-Type, Accept"
+                  }
             ]
-      }
+            }
+        ]
+    }
