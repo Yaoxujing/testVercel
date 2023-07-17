@@ -3,7 +3,7 @@ import { useRef, useState } from 'react'
 // import { sleep } from 'antd-mobile/es/utils/sleep'
 import ArticleItem from '@/components/ArticleItem'
 import styles from './index.module.scss'
-import { getArticleListApi } from '@/myapi/home'
+import { getArticleListApi } from '@/api/home'
 import { ArticlesItem } from '@/types/data'
 import { useHistory } from 'react-router-dom'
 
