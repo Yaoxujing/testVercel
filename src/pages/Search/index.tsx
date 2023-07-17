@@ -5,7 +5,7 @@ import { NavBar, SearchBar } from 'antd-mobile'
 import Icon from '@/components/icon'
 import styles from './index.module.scss'
 import { useEffect, useState } from 'react'
-import { getSuggestsApi } from '@/myApi/search'
+import { getSuggestsApi } from '@/myapi/search'
 import { useDebounceFn } from 'ahooks'
 // import { debounce } from 'lodash'
 

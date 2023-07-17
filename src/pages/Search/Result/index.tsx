@@ -5,7 +5,7 @@ import ArticleItem from '@/components/ArticleItem'
 
 import styles from './index.module.scss'
 import { useEffect, useRef, useState } from 'react'
-import { getSearchList } from '@/myApi/search'
+import { getSearchList } from '@/myapi/search'
 import { ArticlesItem } from '@/types/data'
 
 const Result = () => {
