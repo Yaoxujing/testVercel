@@ -20,7 +20,7 @@ import {
   unFollow,
   unLike,
   unLikeComment,
-} from '@/api/_article'
+} from '@/myApi/article'
 import { ArticleCommentItem, ArticleDetail } from '@/types/data'
 import { formatTime } from '@/utils/time'
 import check from 'dompurify'
