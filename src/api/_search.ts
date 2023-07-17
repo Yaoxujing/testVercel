@@ -1,4 +1,4 @@
-import { SearchResultResponse, SuggestionResponse } from './../types/data.d'
+import { SearchResultResponse, SuggestionResponse } from '../types/data'
 import request from '@/utils/request'
 
 export function getSuggestsApi(q: string): Promise<SuggestionResponse> {

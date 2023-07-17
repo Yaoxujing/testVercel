@@ -2,7 +2,7 @@ import {
   AddArticleCommnetResponse,
   ArticleCommentResponse,
   ArticleDetailResponse,
-} from './../types/data.d'
+} from '../types/data'
 import request from '@/utils/request'
 
 // 获取文章详情

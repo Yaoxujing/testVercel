@@ -1,4 +1,4 @@
-import { ArticlesResponse } from './../types/data.d'
+import { ArticlesResponse } from '../types/data'
 import http from '@/utils/request'
 
 // 获取文章列表数据
